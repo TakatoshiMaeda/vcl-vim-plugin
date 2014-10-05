@@ -31,7 +31,7 @@ endif
 "syn match  vclFunctionName "\h[[:alnum:]_:]*" contained
 "syn match  vclFunctionName "\h\w*[^:]" contained
 "
-syn keyword vclOperator     set call return error esi synthetic include remove unset
+syn keyword vclOperator     set call return error esi synthetic include remove unset sub backend director 
 " return modes
 syn keyword vclModes        deliver pipe pass hash lookup discard fetch restart
 
